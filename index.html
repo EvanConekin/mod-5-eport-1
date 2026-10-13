@@ -8,6 +8,17 @@
     <title>mod-5-eport-1</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b4ade9c213.js" crossorigin="anonymous"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js">
+</script>
+<script src="index.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "-TMiitEfPolv-lqKI",
+      });
+   })();
+</script>
 
 </head>
 <body>
@@ -119,7 +130,7 @@
         <h3 class="modal__subtitle modal__subtitle--contact">
             I'm currently open to new opportunities.
         </h3>
-        <form id="contact__form" action="">
+        <form id="contact__form" onsubmit="contact(event)"></form>
             <div class="form__item">
                 <label class="form__item--label">Name</label>
                 <input class="input"name="user_name" type="text" required></input>

@@ -378,7 +378,7 @@ MODAL
   margin: 12px 0 24px 0;
 }
 .modal__para {
-  margin-bottom: 12px;
+  margin: 0 24px 12px 24px;
   line-height: 1.75;
 }
 
@@ -427,6 +427,7 @@ MODAL
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 
 .modal__overlay--loading {
@@ -459,7 +460,7 @@ MODAL
   right: 40px;
   color: #fff;
   font-size: 36px;
-  z-index: 100;
+z-index: 100%;
 }
 
 /*
