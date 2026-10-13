@@ -454,13 +454,16 @@ MODAL
   text-align: center;
   padding: 20px;
 }
+.modal__overlay--visible {
+  z-index: 1;
+}
 .modal__exit {
   position: absolute;
   top: 30px;
   right: 40px;
   color: #fff;
   font-size: 36px;
-z-index: 100%;
+  z-index: 100%;
 }
 
 /*
