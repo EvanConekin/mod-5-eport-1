@@ -338,7 +338,7 @@ MODAL
   filter: brightness(80%);
   transform: scale(0.9);
 }
-.modal__Language:hover .language__name {
+.modal__language:hover .language__name {
   transform: scale(1);
 }
 
