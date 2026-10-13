@@ -26,18 +26,17 @@ p {
 section {
   background-color: rgb(245, 245, 245);
 }
-input, textarea{
-
-width: 100%;
-background-color: #242424;
-color: #fff;
-outline: none;
-border: 3px solid c0c4cc;
-border-top: none;
-border-left: none;
-border-right: none;
-height: 40px;
-
+input,
+textarea {
+  width: 100%;
+  background-color: #242424;
+  color: #fff;
+  outline: none;
+  border: 3px solid c0c4cc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 40px;
 }
 
 .container {
@@ -368,8 +367,20 @@ MODAL
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: top;
+  justify-content: bottom;
 }
+.modal__title--contact {
+  margin-top: 60px;
+}
+.modal__subtitle--contact {
+  margin-bottom: 20px;
+}
+.form__item--label {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.form__item {
+  margin-top: 20px;
 }
 
 /*
