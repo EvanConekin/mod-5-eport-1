@@ -69,6 +69,7 @@ textarea:focus {
 }
 .click {
   transition: all 300ms ease;
+  cursor: pointer;
 }
 .click:hover {
   transform: scale(1.1);
@@ -451,6 +452,14 @@ MODAL
   font-weight: 700;
   text-align: center;
   padding: 20px;
+}
+.modal__exit {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  color: #fff;
+  font-size: 36px;
+  z-index: 100;
 }
 
 /*
