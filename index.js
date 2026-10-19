@@ -21,6 +21,16 @@ function contact(event) {
   }, 1000);
 }
 
+let isModalOpen = false;
+function toggleModal() {
+//console.log( 'toggleModal()')
+if (isModalOpen) {
+  isModalOpen = false;
+  return document.body.classList.remove("modal--open");
+}
+isModalOpen = true;
+document.body.classList += " modal--open"
+}
 
 //template_12p166r
 //service_hd0xjxa
