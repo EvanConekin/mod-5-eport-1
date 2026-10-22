@@ -128,7 +128,28 @@ nav,
   visibility: hidden;
   transition: 400ms;
 }
+.dark-theme .title,
+.dark-theme .section__title,
+.dark-theme .section__sub-title,
+.dark-theme .nav__link--anchor,
+.dark-theme .fa-solid,
+.dark-theme .header__para {
 
+  color: white;
+}
+
+
+.dark-theme section {
+  background-color: #242424;
+}
+
+.dark-theme  .scroll__icon {
+  border-color: white;
+}
+
+.dark-theme .scroll__icon:after {
+  background-color: white;
+}
 /*
 
 LANDING PAGE
