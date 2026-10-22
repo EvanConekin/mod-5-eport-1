@@ -214,7 +214,7 @@ LANDING PAGE
   background-color: #242424;
   color: white;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   bottom: 36px;
   right: 40px;
 }
